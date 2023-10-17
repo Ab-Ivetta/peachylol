@@ -28,4 +28,19 @@ request["document"]["documentPersons"][0]["party"] = "1480370292295508038"
 request["document"]["documentPersons"][0]["authorities"] = [{}]
 request["document"]["documentPersons"][0]["authorities"][0]["authorityCode"] = "LOCATION_MONEY_DEP_NSO_LIMITSUM"
 
+var_1 = [1,2,3]
 
+def func(a):
+    var_2 = []
+        for i in a:
+     var_2.append(i*2)
+
+    return var_2
+
+    var_3 = var_1
+
+var_3.append(12)
+
+print(func(var_1))
+
+print(var_1)
